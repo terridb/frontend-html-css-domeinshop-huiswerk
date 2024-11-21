@@ -63,6 +63,10 @@ label {
     font-size: 14px;
 }
 
+.testimonial-container {
+    font-size: 12px;
+}
+
 /*////////////////////////
     3. Areas
 ////////////////////////*/
@@ -121,6 +125,34 @@ main {
 main h2 {
     margin-top: 50px;
     margin-bottom: 50px;
+}
+
+.testimonial-container {
+    background-color: #FFF;
+    width: 100%;
+    margin: auto auto 50px;
+    padding: 50px 80px 50px 120px;
+    border-radius: 10px;
+    box-shadow: 0 7px 20px rgba(0, 0, 0, 0.20);
+    position: relative;
+}
+
+.block-quote-icon {
+    position: absolute;
+    left: 70px;
+    top: 45px;
+}
+
+.testimonial-author img {
+    width: 44px;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 20px;
+}
+
+.testimonial-author {
+    display: inline-block;
+    margin-top: 20px;
 }
 
 /*///////////// 3.3 Support /////////////*/
