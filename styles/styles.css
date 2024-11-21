@@ -67,6 +67,11 @@ label {
     font-size: 12px;
 }
 
+footer h6 {
+    font-weight: 400;
+    text-align: center;
+}
+
 /*////////////////////////
     3. Areas
 ////////////////////////*/
@@ -156,14 +161,14 @@ main h2 {
 }
 
 /*///////////// 3.3 Support /////////////*/
-.support img{
+.support img {
     width: 100%;
     margin-top: 40px;
     margin-bottom: 20px;
     border-radius: 10px;
 }
 
-.support button{
+.support button {
     background-color: #1C2B32;
     color: #fff;
     border: none;
@@ -174,11 +179,12 @@ main h2 {
 }
 
 /*///////////// 3.4 Faq /////////////*/
-.faq-details summary{
+.faq-details summary {
     margin-bottom: 30px;
     cursor: pointer;
 }
-.faq-details p{
+
+.faq-details p {
     margin-bottom: 30px;
     background-color: #899CA0;
     color: #fff;
@@ -187,3 +193,9 @@ main h2 {
 }
 
 /*///////////// 3.5 Footer /////////////*/
+footer h6 {
+    background-color: #1C2B32;
+    color: #fff;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
