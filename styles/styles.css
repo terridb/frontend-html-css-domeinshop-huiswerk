@@ -17,7 +17,7 @@ Table of Contents:
 /*////////////////////////
     1. Global Styles
 ////////////////////////*/
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -28,7 +28,7 @@ Table of Contents:
 ////////////////////////*/
 body,
 button,
-input{
+input {
     font-family: "Poppins", serif;
     color: #1C2B32;
 }
@@ -39,7 +39,8 @@ h1 {
 }
 
 button,
-input {
+input,
+label {
     font-size: 13px;
 }
 
@@ -48,38 +49,57 @@ input {
 ////////////////////////*/
 
 
-
 /*///////////// 3.1 Header /////////////*/
+header {
+    background-image: url("/assets/images/mountains.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
 .header-container {
     text-align: center;
-}
-.header-container label {
-    display: block;
-    font-size: 13px;
-    padding-bottom: 15px;
+    max-width: 1000px;
+    padding-top: 60px;
+    padding-bottom: 300px;
+    margin: auto;
+
 }
 
-.header-container button {
-    color: #FFF;
-    background-color: #1C2B32;
+.header-container label {
+    display: block;
+    padding-bottom: 25px;
 }
 
 .header-container ::placeholder {
     color: #1C2B32;
     opacity: 1;
+}
 
+.header-container input {
+    padding: 20px 100px 20px 20px;
+    border: 2px solid #1C2B32;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    background-color: transparent;
+}
 
+.header-container button {
+    color: #FFF;
+    background-color: #1C2B32;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    padding: 20px 30px 20px 25px;
+    margin-left: -5px;
+    border: 2px solid #1C2B32;
+}
 
 /*///////////// 3.2 Testimonial /////////////*/
-
 
 
 /*///////////// 3.3 Support /////////////*/
 
 
-
 /*///////////// 3.4 Faq /////////////*/
-
 
 
 /*///////////// 3.5 Footer /////////////*/
