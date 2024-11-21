@@ -23,6 +23,15 @@ Table of Contents:
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: underline;
+    color: #899CA0;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
 /*////////////////////////
     2. Typography
 ////////////////////////*/
@@ -44,6 +53,16 @@ label {
     font-size: 13px;
 }
 
+.main-container h2 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.support p {
+    font-size: 14px;
+}
+
 /*////////////////////////
     3. Areas
 ////////////////////////*/
@@ -62,7 +81,6 @@ header {
     padding-top: 60px;
     padding-bottom: 300px;
     margin: auto;
-
 }
 
 .header-container label {
@@ -91,15 +109,49 @@ header {
     padding: 20px 30px 20px 25px;
     margin-left: -5px;
     border: 2px solid #1C2B32;
+    cursor: pointer;
 }
 
 /*///////////// 3.2 Testimonial /////////////*/
+main {
+    max-width: 1000px;
+    margin: auto;
+}
 
+main h2 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 
 /*///////////// 3.3 Support /////////////*/
+.support img{
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
 
+.support button{
+    background-color: #1C2B32;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 20px;
+    border-radius: 30px;
+    margin-top: 20px;
+}
 
 /*///////////// 3.4 Faq /////////////*/
-
+.faq-details summary{
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+.faq-details p{
+    margin-bottom: 30px;
+    background-color: #899CA0;
+    color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+}
 
 /*///////////// 3.5 Footer /////////////*/
