@@ -31,7 +31,6 @@ a {
 a:hover {
     text-decoration: none;
 }
-
 /*////////////////////////
     2. Typography
 ////////////////////////*/
@@ -42,34 +41,36 @@ input {
     color: #1C2B32;
 }
 
-h1 {
-    font-size: 100px;
-    font-weight: 700;
-}
-
 button,
 input,
 label {
     font-size: 13px;
 }
 
+.header-container h1 {
+    font-size: 100px;
+    font-weight: 700;
+}
+
 .main-container h2 {
-    text-align: center;
     font-size: 24px;
     font-weight: 700;
+}
+
+.testimonial-container {
+    font-size: 13px;
 }
 
 .support p {
     font-size: 14px;
 }
 
-.testimonial-container {
-    font-size: 12px;
+.faq-details {
+    font-size: 14px;
 }
 
 footer h6 {
     font-weight: 400;
-    text-align: center;
 }
 
 /*////////////////////////
@@ -110,6 +111,10 @@ header {
     background-color: transparent;
 }
 
+.header-container input:focus {
+    outline: none;
+}
+
 .header-container button {
     color: #FFF;
     background-color: #1C2B32;
@@ -122,14 +127,15 @@ header {
 }
 
 /*///////////// 3.2 Testimonial /////////////*/
-main {
+.main-container {
     max-width: 1000px;
     margin: auto;
 }
 
-main h2 {
+.main-container h2 {
     margin-top: 50px;
     margin-bottom: 50px;
+    text-align: center;
 }
 
 .testimonial-container {
@@ -163,7 +169,6 @@ main h2 {
 /*///////////// 3.3 Support /////////////*/
 .support img {
     width: 100%;
-    margin-top: 40px;
     margin-bottom: 20px;
     border-radius: 10px;
 }
@@ -198,4 +203,5 @@ footer h6 {
     color: #fff;
     padding-top: 30px;
     padding-bottom: 30px;
+    text-align: center;
 }
