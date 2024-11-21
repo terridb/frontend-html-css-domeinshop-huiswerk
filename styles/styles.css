@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 /*////////////////////////////////////////////////////////////////////////
 Table of Contents:
     1. Global Styles
@@ -10,19 +12,36 @@ Table of Contents:
         3.5 Footer
 ////////////////////////////////////////////////////////////////////////*/
 
-
+/*grijs #899CA0, donkergroen #1C2B32*/
 
 /*////////////////////////
     1. Global Styles
 ////////////////////////*/
-
-
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
 /*////////////////////////
     2. Typography
 ////////////////////////*/
+body,
+button,
+input{
+    font-family: "Poppins", serif;
+    color: #1C2B32;
+}
 
+h1 {
+    font-size: 100px;
+    font-weight: 700;
+}
 
+button,
+input {
+    font-size: 13px;
+}
 
 /*////////////////////////
     3. Areas
@@ -31,6 +50,23 @@ Table of Contents:
 
 
 /*///////////// 3.1 Header /////////////*/
+.header-container {
+    text-align: center;
+}
+.header-container label {
+    display: block;
+    font-size: 13px;
+    padding-bottom: 15px;
+}
+
+.header-container button {
+    color: #FFF;
+    background-color: #1C2B32;
+}
+
+.header-container ::placeholder {
+    color: #1C2B32;
+    opacity: 1;
 
 
 
